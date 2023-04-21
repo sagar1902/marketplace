@@ -9,7 +9,7 @@ export default function SearchItem({ product }) {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer sl.Bc48JYvq1RRHRjM98mrSSM3RyqhnGU10_4xAYlHCvJhS2O9m31295f66T09Q7NO5muG3NkyV4H364cd5yAo28z1Klr2Z-PpkUa-7a5AKO_qR5smFo6ivrQ6VZZPe1RGImbWRuqF_ZguV'
+            'Authorization': 'Bearer sl.Bc7zJFaUb-91heOl25iAv9PyWhAw5VchHFyujm5z0RbaZTtuqRTLV7c2OJa3DN9NVIvJwIDR6lQRkIZUKPWCKGOEVtI_CqzTKaODDOXMeZHcmBO0gS1Iz5MryxmutYklsZBRabwH6hS0'
           }
         });
         data = await data.json();
