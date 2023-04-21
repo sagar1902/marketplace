@@ -21,10 +21,10 @@ function App() {
       <div className="container" style={{marginTop:'100px', marginBottom:"65px"}}>
         <Suspense fallback={<SpinLoader/>}>
           <Routes>
-            <Route path="/we" element={
-              <PrivateRoute>
+            <Route path="/" element={
+              // <PrivateRoute>
                 <Home />
-              </PrivateRoute>
+              // </PrivateRoute>
             }/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/signup" element={<SignUp/>}/>
